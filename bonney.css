@@ -1,0 +1,261 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 0 0;
+    background-blend-mode: darken;
+
+}
+body{
+    background: white;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.othniels{
+    position:relative;
+    height: 100vh; 
+    background: rgba(0,0,0,0.7)url("https://ui-themez.smartinnovates.net/items/daniels/img/bg.jpg");
+    opacity: 2;
+    background-position: 0 0;
+    background-size: cover;
+    object-fit: cover;
+    background-position: 0 0;
+    background-blend-mode: darken;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color:white;
+    background-repeat: no-repeat ;  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+
+    
+}
+.logo{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin-right: 80px;
+    gap: 40px;
+    font-size: 10px;
+
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.nav-icons{
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.nav-icons i:hover{
+transform: scale(1.2);
+}
+/*content*/
+.content{
+    margin-top: 190px;
+    font-size: 50px;
+    font-weight: 20px;
+    padding: 40px;
+    font-family: sans-serif;
+}
+.content h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+.name{
+    font-size: 60px;
+    margin: 5px 0;
+    padding: 10px;
+}
+.nav-icon{
+    margin-bottom: 500px;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 0;
+}
+.nav-icon a {
+    text-decoration: none;
+    color: white;
+}
+.picture{
+    padding-left: 30px;
+    padding: 15px;
+}
+
+section {
+    scroll-snap-align: start;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: center;
+    width: 1170px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 10%;
+    margin-left: 100px;
+    height: 100vh;
+}
+/*writing with buttons*/
+.work{
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.word{
+    line-height: 1.6;
+    margin:0;
+    font-size: 16px;
+    color: #748182;
+    display: block;
+    
+}
+h1.about-me{
+    font-weight: 35px;
+    color: black;
+}
+p{
+    line-height: 1.6;
+}
+h3{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+span{
+    font-weight: 700;
+}
+.about-me{
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.passage{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.skill-area{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.skill{
+    position: relative;
+    margin-bottom: 5px;
+}
+.skill-title{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.skill-bar{
+    width: 100%;
+    background:white;
+    height: 20px;
+    z-index: -1;
+    border-radius: 10px;
+    position: absolute;
+    color: white;
+    overflow: hidden
+
+}
+.skill-fill{
+    background:black;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.skill-percent{
+    font-size: 15px;
+    color: white;
+}
+.web{
+    width: 95%;
+}
+.branding{
+    width: 80%;
+}
+.development{
+    width: 90%;
+}
+.first{
+    display: inline;
+    width: 25%;
+    height: 38px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.second{
+    display: inline;
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.first:hover{
+    background: white;
+    color: black;
+    transition:.5s ease-in-out;
+}
+.second:hover{
+    background: black;
+    color: white;
+    transition: .5s ease-in-out;
+}
+.button{
+    font-size: 13px;
+    
+
+}
+

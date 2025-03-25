@@ -1,0 +1,113 @@
+
+#works{
+    height: 150vh;
+}
+.april{
+    margin-top: 70px;
+    padding: 100px;
+    padding-bottom: 10px;
+}
+#works h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: black;
+    padding-bottom: 60px;
+    text-align: center;
+    text-shadow: 0 15px 10px rgba(0,0,0,0.2);
+}
+
+.april-nav ul{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.april-nav li{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.april-nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.april-img{
+    align-items: center;
+    justify-content: center;
+}
+img{
+    padding: 0px 20px 30px;
+}
+
+#clients{
+    height: 100vh;
+    background-color:#f7f7f7;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#clients h1{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding: 0px 0px 50px;
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.testimonial{
+    max-width: 900px;
+    position: relative;
+    width: 100%;
+    padding:  0;
+    row-gap: 30px;
+}
+.testi-img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+.slide p{
+    color: #748182;
+    line-height: 1.6;
+    font-size: 18px;
+    word-spacing: 2px;
+    text-align: center;
+    font-weight: 400px;
+}
+.slide span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide .nam{
+    margin: 30px 0 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.job{
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 30px;
+}
